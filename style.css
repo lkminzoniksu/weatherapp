@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.container {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+  input, button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
